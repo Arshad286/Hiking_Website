@@ -1,0 +1,38 @@
+
+.header-title {
+  text-align: left;
+  padding-bottom: 5%;
+  font-weight: 900;
+}
+.autumn-subtitle {
+  margin-top: -10px;
+}
+
+
+.card-img-top {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 0 auto 15px;
+    border-radius: 50%;
+  }
+  
+  .location {
+    font-size: 0.9rem;
+    color: #333;
+  }
+
+  .placestovisit {
+    margin: 2rem auto;
+  }
+
+  hr {
+    border: 0;
+    border-top: 4px solid skyblue;
+    margin: 20px 0;
+  }
+
+  .row-image{
+    border-radius: 80%;
+    width: 80%;
+  } 

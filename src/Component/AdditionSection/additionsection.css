@@ -1,0 +1,77 @@
+/* src/Component/additionsection.css */
+html, body, #root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .ice-section {
+   
+    width: 100%;
+    min-height: 100vh; /* Ensure it covers the full viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px; /* Add some padding for better spacing */
+    box-sizing: border-box;
+
+
+  }
+  
+  .circle-image {
+    margin-bottom: 20px;
+  }
+  
+  .ice-caption {
+    color: #03b1fc;
+    margin-top: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+  }
+ 
+  .view {
+    padding: 20px 0;
+    background-color: #f8f9fa;
+  }
+  
+  .view-card {
+    position: relative;
+    border: none; /* Remove card border */
+    box-shadow: none; /* Remove any shadow if present */
+  }
+  
+  .image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .view-body {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; /* Make the text color white for better visibility */
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+  
+  .view-title {
+    font-size: 1.5em;
+    font-weight:800;
+    color:#f8f9fa;
+  }
+  
+  .view-text p {
+    margin: 0;
+    font-size: 1em;
+  }
+  
+  .btn-primary {
+    margin-top: 10px;
+  }
+  

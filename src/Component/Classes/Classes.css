@@ -1,0 +1,80 @@
+
+
+.rock-section {
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 100vh;
+    color: black;
+    padding-top: 90px; /* Adjust if your navbar height is different */
+  }
+  
+  .rock-section h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    
+  }
+  
+  .rock-section h1 span:first-child {
+    display: block;
+    margin-bottom: 5px;
+
+  }
+  
+  .rock-section h1 span:last-child {
+    display: block;
+  }
+  
+  .rock-section h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .rock-section p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    font-weight: 400;
+
+  }
+  
+  .rock-section hr {
+    border: 0;
+    border-top: 4px solid skyblue;
+    margin: 20px 0;
+  }
+  
+  .details p {
+    display: inline-block;
+    width: 45%;
+    margin-right: 5%;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .circle-image {
+    margin: 20px 0;
+  }
+  
+  .circle-image img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  .image-caption {
+    font-size: 1rem;
+    color: #ff5722;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+
+    }
+    .icon-title{
+      padding: 3%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
